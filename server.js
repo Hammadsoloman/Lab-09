@@ -19,7 +19,7 @@ help.server.get('/trails',trailsHandler);
 const moviesHandler = require('./movie');
 help.server.get('/movies',moviesHandler);
 
-const yelpHandler = require('./movie');
+const yelpHandler = require('./yelp');
 help.server.get('/yelp',yelpHandler);
 
 
